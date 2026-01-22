@@ -13,4 +13,11 @@ Affiche un dashboard système style "Cyberpunk/Hacker" avec monitoring et citati
 Copiez-collez cette commande dans votre terminal Raspberry Pi :
 
 ```bash
-sudo curl -o /etc/profile.d/motd.sh [https://raw.githubusercontent.com/iamtheamn/Serveur-MOTD/main/motd.sh](https://raw.githubusercontent.com/iamtheamn/Serveur-MOTD/main/motd.sh) && sudo chmod +x /etc/profile.d/motd.sh && touch ~/.hushlogin && echo "Installation terminée ! Reconnectez-vous."
+sudo curl -o /etc/profile.d/motd.sh https://raw.githubusercontent.com/iamtheamn/Serveur-MOTD/main/motd.sh && sudo chmod +x /etc/profile.d/motd.sh && touch ~/.hushlogin && echo "Installation terminée ! Reconnectez-vous."
+```
+
+## 🛠️ Désinstallation
+Simplement supprimer le fichier :
+```Bash
+sudo rm /etc/profile.d/motd_aymenos.sh
+```
