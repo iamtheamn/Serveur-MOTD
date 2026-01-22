@@ -19,5 +19,5 @@ sudo curl -o /etc/profile.d/motd.sh https://raw.githubusercontent.com/iamtheamn/
 ## 🛠️ Désinstallation
 Simplement supprimer le fichier :
 ```Bash
-sudo rm /etc/profile.d/motd_aymenos.sh
+sudo rm /etc/profile.d/motd.sh
 ```
