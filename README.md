@@ -7,6 +7,7 @@ Affiche un dashboard système style "Cyberpunk/Hacker" avec monitoring et citati
 - Logo ASCII Art **AYMEN OS**
 - Température CPU / RAM / Disque / IP
 - Citation aléatoire
+
 ![Aperçu MOTD](Preview-MOTD.jpg)
 
 ## 🚀 Installation rapide (One-line command)
