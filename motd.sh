@@ -26,7 +26,7 @@ IP_LOCAL=$(hostname -I | cut -d' ' -f1)
 TEMP=$(vcgencmd measure_temp | cut -c "6-9")
 
 echo -e "${YELLOW}===============================================${NC}"
-echo -e "  💻 ${PURPLE}Système :${NC} Raspberry Pi 5"
+echo -e "  💻 ${PURPLE}Système :${NC} Serveur 1"
 echo -e "  🌡️  ${PURPLE}Temp    :${NC} ${TEMP}°C"
 echo -e "  🧠 ${PURPLE}Mémoire :${NC} $MEMORY"
 echo -e "  💾 ${PURPLE}Disque  :${NC} $DISK"
